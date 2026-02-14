@@ -3,8 +3,10 @@ import random
 
 # Setup MediaPipe
 import mediapipe as mp
-from mediapipe.python.solutions import hands as mp_hands
-from mediapipe.python.solutions import drawing_utils as mp_draw
+
+mp_hands = mp.solutions.hands
+hands = mp_hands.Hands(max_num_hands=1)
+mp_draw = mp.solutions.drawing_utils
 
 hands = mp_hands.Hands(max_num_hands=1)
 # Setup Camera
