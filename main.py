@@ -10,7 +10,7 @@ mp_draw = mp.solutions.drawing_utils
 
 hands = mp_hands.Hands(max_num_hands=1)
 # Setup Camera
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 WIDTH, HEIGHT = 640, 480
 GRAVITY = 0.2
