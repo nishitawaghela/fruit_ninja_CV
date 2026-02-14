@@ -20,7 +20,7 @@ A real-time, interactive game built with **Python**, **OpenCV**, and **MediaPipe
 ## How to Run Locally
 
 ### 1. Prerequisites
-You need Python installed. If you are on a Mac (M1/M2), it is highly recommended to use a Conda environment to avoid version conflicts.
+You need Python installed. If you are on a Mac , it is highly recommended to use a Conda environment to avoid version conflicts.
 
 ### 2. Installation
 ```bash
