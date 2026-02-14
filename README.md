@@ -25,7 +25,7 @@ You need Python installed. If you are on a Mac , it is highly recommended to use
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/nishitawaghela/fruit_ninja_CV.git](https://github.com/nishitawaghela/fruit_ninja_CV.git)
+git clone https://github.com/nishitawaghela/fruit_ninja_CV.git 
 cd fruit_ninja_CV
 
 # (Optional but recommended) Create a virtual environment
