@@ -2,9 +2,6 @@
 
 A real-time, interactive game built with **Python**, **OpenCV**, and **MediaPipe**. This project uses Computer Vision (CV) to track the player's hand movements, allowing them to slice virtual fruits on screen using their finger as a blade.
 
-![Project Status](https://img.shields.io/badge/Status-Playable_Prototype-brightgreen) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue) ![OpenCV](https://img.shields.io/badge/Library-OpenCV-red)
-
-
 ## Features
 * **Hand Tracking:** Uses MediaPipe to track the index finger tip in real-time (60 FPS).
 * **Physics Engine:** Custom gravity and projectile motion logic simulates realistic fruit tossing.
@@ -13,7 +10,7 @@ A real-time, interactive game built with **Python**, **OpenCV**, and **MediaPipe
 * **Particle System:** Fruits explode into smaller colored particles upon slicing.
 * **Multi-Directional Spawning:** Fruits spawn from all four sides of the screen with randomized velocities.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Libraries:**
     * `opencv-python` (Image processing & drawing)
