@@ -1,12 +1,12 @@
 import cv2
-import mediapipe as mp
 import random
 
 # Setup MediaPipe
-mp_hands = mp.solutions.hands
-hands = mp_hands.Hands(max_num_hands=1)
-mp_draw = mp.solutions.drawing_utils
+import mediapipe as mp
+from mediapipe.python.solutions import hands as mp_hands
+from mediapipe.python.solutions import drawing_utils as mp_draw
 
+hands = mp_hands.Hands(max_num_hands=1)
 # Setup Camera
 cap = cv2.VideoCapture(0)
 
